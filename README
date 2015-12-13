@@ -1,6 +1,6 @@
 Installation:
 
-    git clone git://github.com/wtmpx/vim.git ~/.vim
+    git clone https://github.com/wtmpx/vim.git ~/.vim
 
 
 vi ~/.vimrc and add below : 
