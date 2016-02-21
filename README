@@ -9,6 +9,13 @@ vi ~/.vimrc and add below :
     syntax on
     filetype plugin indent on
     :color desert
+    
+    set autoindent
+    
+    set expandtab
+    set tabstop=2
+    set shiftwidth=2
+
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
