@@ -1,28 +1,29 @@
 Installation:
 
-    git clone https://github.com/wtmpx/vim.git ~/.vim
-    test
+git clone https://github.com/wtmpx/vim.git ~/.vim
+test
 
 
 vi ~/.vimrc and add below : 
 
-    execute pathogen#infect()
-    syntax on
-    filetype plugin indent on
-    :color desert
-    
-    set autoindent
-    
-    set expandtab
-    set tabstop=2
-    set shiftwidth=2
-    set hlsearch                                                              
-    set colorcolumn=80
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+:color desert
+
+set autoindent
+
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set hlsearch                                                              
+set colorcolumn=80
+set laststatus=2
 
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
-    cd ~/.vim
-    git submodule init
-    git submodule update
+cd ~/.vim
+git submodule init
+git submodule update
 
